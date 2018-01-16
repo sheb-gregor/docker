@@ -1,6 +1,7 @@
+# NAME:   shebgregor/ubuntu-cpp-psql
 FROM partlab/ubuntu-postgresql
 
-MAINTAINER sheb.gregor@gmail.com<Michael Popsuev>
+LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 
 RUN true \
  && apt-get update \
@@ -18,5 +19,4 @@ RUN true \
 	gcc \
 	g++ \
 	cpp \
-	postgresql-client \
- 
+	postgresql-client 

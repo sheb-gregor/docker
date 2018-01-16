@@ -1,6 +1,7 @@
+# NAME:   shebgregor/ubuntu-autotools
 FROM ubuntu:16.04
 
-MAINTAINER sheb.gregor@gmail.com<Michael Popsuev>
+LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 
 RUN true \
  && apt-get update \

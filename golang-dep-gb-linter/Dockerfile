@@ -1,6 +1,7 @@
+# NAME:    shebgregor/golang-dep-gb-linter
 FROM golang:1.8.5-alpine3.6
 
-MAINTAINER sheb.gregor@gmail.com<Michael Popsuev>
+LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 
 RUN true && \
     apk add --update  git python py-pip bash gcc libc-dev \
