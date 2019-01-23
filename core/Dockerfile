@@ -1,5 +1,5 @@
 # NAME:   shebgregor/ubuntu-autotools
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 

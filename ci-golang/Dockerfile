@@ -1,5 +1,5 @@
 # NAME:    shebgregor/ci-golang
-FROM golang:1.9
+FROM golang:1.11
 
 LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 

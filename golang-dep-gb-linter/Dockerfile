@@ -1,5 +1,5 @@
 # NAME:    shebgregor/golang-dep-gb-linter
-FROM golang:1.8.5-alpine3.6
+FROM golang:1.11-alpine3.6
 
 LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 

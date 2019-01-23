@@ -1,5 +1,5 @@
 # NAME:   shebgregor/debian-postgres-clang
-FROM postgres:9.5
+FROM postgres:10
 
 LABEL maintainer "Michael Popsuev <sheb.gregor@gmail.com>"
 
